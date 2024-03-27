@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500;600;700;800&family=Poppins:wght@400;500;600;700;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: linear-gradient(to top, #9890e3 0%, #b1f4cf 100%);
+      
+      }
+
+      img{
+        max-width: 100%;
+      }
+
+      .container {
+        max-width: 1200px;
+        margin: auto;
+      }
+
+      .header {
+        background-image: url(imagens/dex-ezekiel-IxDPZ-AHfoI-unsplash.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        min-height: 80vh;
+        padding: 80px 0 0 0;
+      }
+
+      .menu {
+        background: rgb(77,108,204);
+        background: radial-gradient(circle, rgba(77,108,204,1) 19%, rgba(156,26,18,1) 100%);
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+      }
+
+      .logo {
+        color: whitesmoke;
+        font-size: 30px;
+        font-weight: 800;
+        text-transform: uppercase;
+      }
+
+      .menu .navbar ul li {
+        position: relative;
+        float: left;
+
+      }
+
+      .menu .navbar ul li a {
+        font-size: 18px;
+        padding: 20px;
+        color: aliceblue;
+        display: block;
+        font-weight: 600;
+      }
+
+      .menu .navbar ul li a:hover {
+        color: aqua;
+      }
+
+      #menu {
+        display: none;
+      }
+
+      .menu-icono {
+        width: 25px;
+
+      }
+
+      .menu label {
+        cursor: pointer;
+        display: none;
+      }
+
+      .header-txt {
+        width: 50%;
+        padding-right: 75px;
+
+      }
+
+      .header-txt h1 {
+        color: whitesmoke;
+        font-size: 45px;
+        line-height: 1;
+        text-transform: capitalize;
+        margin-bottom: 25px;
+
+      }
